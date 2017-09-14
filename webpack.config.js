@@ -24,5 +24,10 @@ module.exports = {
 			}
 		]
 	},
-	plugins: [new HtmlWebpackPlugin(), new DashboardPlugin()]
+	plugins: [
+		new HtmlWebpackPlugin({
+			template: `${srcDir}/index.html`
+		}),
+		new DashboardPlugin()
+	]
 }

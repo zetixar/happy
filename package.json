@@ -12,6 +12,8 @@
 		"babel-loader": "^7.1.2",
 		"babel-preset-react": "^6.24.1",
 		"html-webpack-plugin": "^2.30.1",
+		"react": "^15.6.1",
+		"react-dom": "^15.6.1",
 		"standard": "^10.0.3",
 		"standard-loader": "^6.0.1",
 		"webpack": "^3.5.6",

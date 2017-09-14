@@ -5,13 +5,17 @@
 	"author": "Mohsen",
 	"license": "MIT",
 	"scripts": {
-		"start": "webpack-dashboard webpack-dev-server"
+		"start": "webpack-dashboard -- webpack-dev-server"
 	},
 	"devDependencies": {
+		"babel-core": "^6.26.0",
+		"babel-loader": "^7.1.2",
+		"babel-preset-react": "^6.24.1",
 		"html-webpack-plugin": "^2.30.1",
 		"standard": "^10.0.3",
 		"standard-loader": "^6.0.1",
 		"webpack": "^3.5.6",
+		"webpack-dashboard": "^1.0.0-5",
 		"webpack-dev-server": "^2.8.2"
 	}
 }

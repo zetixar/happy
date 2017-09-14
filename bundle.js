@@ -67,8 +67,7 @@
 /* 0 */
 /***/ (function(module, exports) {
 
-console.log('hello world')['aslfajsfd']
-;('fasdf')
+console.log('hello world')
 
 
 /***/ })

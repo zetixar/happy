@@ -1,4 +1,5 @@
 const { resolve } = require('path')
+const HtmlWebpackPlugin = require('html-webpack-plugin')
 const srcDir = resolve(__dirname, 'src')
 
 module.exports = {
@@ -15,5 +16,6 @@ module.exports = {
 				exclude: /node_modules/
 			}
 		]
-	}
+	},
+	plugins: [new HtmlWebpackPlugin()]
 }

@@ -8,6 +8,7 @@
 		"start": "webpack"
 	},
 	"devDependencies": {
+		"html-webpack-plugin": "^2.30.1",
 		"standard": "^10.0.3",
 		"standard-loader": "^6.0.1",
 		"webpack": "^3.5.6"

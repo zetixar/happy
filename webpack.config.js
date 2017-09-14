@@ -1,5 +1,7 @@
 const { resolve } = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
+const DashboardPlugin = require('webpack-dashboard/plugin')
+
 const srcDir = resolve(__dirname, 'src')
 
 module.exports = {
@@ -17,5 +19,5 @@ module.exports = {
 			}
 		]
 	},
-	plugins: [new HtmlWebpackPlugin()]
+	plugins: [new HtmlWebpackPlugin(), new DashboardPlugin()]
 }
